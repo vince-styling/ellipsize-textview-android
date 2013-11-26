@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ellipsize-textview</string>
+
+    <string name="book_detail_summary_collapse">收起</string>
+    <string name="book_detail_summary_expand">展开</string>
+
+    <string name="ellipsize_txt_chn">
+        大白鲨以其好奇心而闻名 ——它经常从水中抬起它的头，并且更令在水中的人担心的是，它经常通过啃咬的方式去探索不熟悉的目标， 还会将一切它们感兴趣的东西吞下去：肉、骨头、木块，甚至钢笔、玻璃瓶什么的（它们的胃内有一层坚韧的壁，这样吞入的东西不会弄伤它们）。许多鲨鱼生物学家认为对人类的进攻是这种探索行为的结果，由于大白鲨令人难以置信的锋利牙齿和上下颚的力量，很可能会轻易地导致人的死亡。\n
+        即便如此，现今仍然有很多的冒险者愿意以生命作为代价去揭示大白鲨不为人知的一面。在他们眼中，大白鲨智力高，好奇心强，最重要的是它们乐于与人接触。当你亲切的去对待它时，它亦会亲切地去对待你。
+    </string>
+
+
+    <string name="ellipsize_txt_eng">
+        Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It\'s the largest installed base of any mobile platform and growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.\n
+        Android gives you a world-class platform for creating apps and games for Android users everywhere, as well as an open marketplace for distributing to them instantly.
+    </string>
+
+</resources>

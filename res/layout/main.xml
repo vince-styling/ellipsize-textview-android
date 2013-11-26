@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vincestyling="http://schemas.android.com/apk/res/com.vincestyling.android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/lotEllipsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.vincestyling.android.ui.EllipsizeEndTextView
+            android:id="@+id/txvEllipsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            vincestyling:textSize="15sp"
+            vincestyling:textColor="#2b2b2b"
+            vincestyling:maxLines="4"
+            vincestyling:lineSpacing="10dp"/>
+
+        <TextView
+            android:id="@+id/btnExpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txvEllipsize"
+            android:text="@string/book_detail_summary_expand"
+            android:textSize="14sp"
+            android:textColor="#909090"
+            android:drawableRight="@drawable/book_detail_arrow_down"
+            android:drawablePadding="2dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
