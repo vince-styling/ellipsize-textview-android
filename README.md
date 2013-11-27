@@ -13,15 +13,15 @@ state, that was why we wrote this widget.
 
 in layout file, define it:
 
-  <com.vincestyling.android.ui.EllipsizeEndTextView
-    android:id="@+id/txvEllipsize"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    vincestyling:textSize="15sp"
-    vincestyling:textColor="#2b2b2b"
-    vincestyling:maxLines="4"
-    vincestyling:lineSpacing="10dp"/>
+    <com.vincestyling.android.ui.EllipsizeEndTextView
+        android:id="@+id/txvEllipsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        vincestyling:textSize="15sp"
+        vincestyling:textColor="#2b2b2b"
+        vincestyling:maxLines="4"
+        vincestyling:lineSpacing="10dp"/>
     
 in Activity, just set Text to the widget:
 
-  mTxvEllipsize.setText(getString(R.string.ellipsize_txt_chn));
+    mTxvEllipsize.setText(getString(R.string.ellipsize_txt_chn));
