@@ -9,7 +9,7 @@ but we can't find out how to know if TextView ellipsized, we want to know it bec
 we can do something for it such as show an expand/collapse Button by the ellipsize
 state, that was why we wrote this widget.
 
-For more Detail, take a look at this [Article](http://vincestyling.com/posts/2013/easily-to-know-ellipsize-mode-of-textview-in-Android.html).
+For more Detail, take a look at this [Article](http://vincestyling.com/posts/2013/easily-to-know-and-switch-the-ellipsize-mode-of-textview-in-Android.html).
 
 ## How to use?
 
