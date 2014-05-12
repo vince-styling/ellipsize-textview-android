@@ -15,22 +15,25 @@ For more Detail, take a look at this [Article](http://vincestyling.com/posts/201
 
 in layout file, define it:
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:vincestyling="http://schemas.android.com/apk/res/com.vincestyling.android">
-        // 'com.vincestyling.android' reference to 'package' attribute declare in AndroidManifest.xml
+```xml
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vincestyling="http://schemas.android.com/apk/res/com.vincestyling.android">
 
-        <com.vincestyling.android.ui.EllipsizeEndTextView
-            android:id="@+id/txvEllipsize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            vincestyling:textSize="15sp"
-            vincestyling:textColor="#2b2b2b"
-            vincestyling:maxLines="4"
-            vincestyling:lineSpacing="10dp"/>
+    <com.vincestyling.android.ui.EllipsizeEndTextView
+        android:id="@+id/txvEllipsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        vincestyling:textSize="15sp"
+        vincestyling:textColor="#2b2b2b"
+        vincestyling:maxLines="4"
+        vincestyling:lineSpacing="10dp"/>
 
-    </LinearLayout>
+</LinearLayout>
+```
 
 in Activity, just set Text to the widget:
 
-    mTxvEllipsize.setText(getString(R.string.ellipsize_txt_chn));
+```java
+mTxvEllipsize.setText(getString(R.string.ellipsize_txt_chn));
+```
