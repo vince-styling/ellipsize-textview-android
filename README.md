@@ -1,5 +1,6 @@
 ellipsize-textview-android
 ==========================
+
 This project provides a Textview-like control which allows you to set max number
 of lines to wrap an input string, then ellipsizes the last line if there's not
 enough room to handle the entire input string.
@@ -18,7 +19,7 @@ in layout file, define it:
 ```xml
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:vincestyling="http://schemas.android.com/apk/res/com.vincestyling.android">
+    xmlns:vincestyling="http://schemas.android.com/apk/res-auto">
 
     <com.vincestyling.android.ui.EllipsizeEndTextView
         android:id="@+id/txvEllipsize"
@@ -36,4 +37,23 @@ in Activity, just set Text to the widget:
 
 ```java
 mTxvEllipsize.setText(getString(R.string.ellipsize_txt_chn));
+```
+
+License
+=======
+
+```
+Copyright 2013 Vince Styling
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
